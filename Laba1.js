@@ -19,3 +19,9 @@ if(first%second == 0 && first%third == 0){
 }
 }
 function2(3, 3, 3);
+//Task 1.3
+var function3 = function(strin){
+var newStr = strin[0].toUpperCase() + strin.slice(1);
+console.log(newStr);
+}
+function3('second');
