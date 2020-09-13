@@ -1,5 +1,12 @@
 //Task 1.1
 var function1 = function (number){
-    console.log("Enter size of array : ");
+    var arr = [number];
+    for(var i =0; i <number; i++){
+        arr.push(i);
+    }
+    console.log("Array : ");
+    for(var i =0; i < number; i++){
+        console.log(arr[i]);
+    }
 }
-function1();
+function1(10);
