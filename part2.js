@@ -1,2 +1,8 @@
- button = document.getElementById('button'),input = document.getElementById('input'), target = document.getElementById('done')
-button.addEventListener("click", e=> target.textContent = input.value)
+var output = function(){
+//const button = document.getElementById('button');
+let input = document.getElementById('input');
+let  result = document.getElementById('output');
+button.addEventListener("click", e=> result.innerText = input.value)
+}
+
+output();

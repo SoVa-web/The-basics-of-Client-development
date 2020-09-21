@@ -9,6 +9,8 @@ input {
 }
 
 button {
+    background-color: rgb(158, 44, 143);
+    color: rgb(201, 218, 49);
     font-size: 40px;
     width: 150px;
 }
